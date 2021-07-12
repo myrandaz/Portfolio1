@@ -27,6 +27,18 @@ nav{
     width: 700px;
     background-image: linear-gradient(315deg, #cfc7f8 0%, #ebbba7 74%);
 }
+.container-two {
+  height: 90vh;
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.cell {
+  font-size: 1rem;
+  text-align: center;
+  padding: 40px;
+}
   .image {
     order: 2;
   }

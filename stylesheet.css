@@ -2,7 +2,7 @@ html{
   background-image: url("https://i.imgur.com/crQ7R1w.jpg");
   margin: 0px;
   padding: 3px;
-  border: 25px dotted #e2a2d2;
+  border: 25px dotted lightcoral;
 }
 .background{
   background-color:pink ;
@@ -21,11 +21,11 @@ nav{
   justify-content:flex-end;
   padding: 20px;
   border-radius: 10px;
-  background-image: linear-gradient(rgb(196, 115, 228), rgb(219, 126, 140), pink);
+  background-image: linear-gradient(rgb(226, 163, 120), rgb(219, 126, 140), pink);
 }
 .container {
     width: 700px;
-    background-image: linear-gradient(315deg, #cfc7f8 0%, #ebbba7 74%);
+    background-image: linear-gradient(315deg, pink , coral ,pink);
 }
 .container-two {
   height: 90vh;
@@ -34,21 +34,35 @@ nav{
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
 }
-.cell {
-  font-size: 1rem;
+p{
+  background-color: rgb(180, 38, 61);
   text-align: center;
+  color: #e2989c;
+  font-size: xxx-large;
+}
+.cell {
+  font-size: large;
+  text-align: left;
   padding: 40px;
 }
-  .image {
-    order: 2;
-  }
   .text {
-    color: rgb(218, 183, 183);
-    padding-left: 30px;
-    background-image: linear-gradient(315deg, #a72c88 0%, #cd6bda 74%);
-  }
-  h4{
+    color: rgb(167, 27, 85);
+    padding: 30px;
+    background-image: linear-gradient(315deg, #db8d8d ,pink );
+    background-size: 100% ;
+}
+ul{
+  font-size: x-large;
+  color: saddlebrown;
+}
+li{
+  color: saddlebrown;
+}
+h4{
     text-align: center;
+  }
+a{
+  color: saddlebrown;
   }
 img{
   height: 300px;
@@ -59,4 +73,44 @@ img{
   align-content: center;
   border-radius: 25px;
   border: 3px double #e2a2d2;
+}
+.cell-1{
+  background-color: rgb(230, 139, 103);
+  border: 5px solid #9e625b;
+}
+.cell-2{
+  background-color: #d99b82;
+  border: 5px solid #9e625b;
+  text-align:center;
+}
+  .cell-3{
+  background-color: #e5ccc9;
+  border: 5px solid #9e625b;
+}
+.cell-4{
+  background-color: #c08081;
+  border: 5px solid #9e625b;
+}
+.cell-5{
+  background-color: #b57281;
+  border: 5px solid #9e625b;
+}
+.cell-6{
+  background-color: #ab4e52;
+  border: 5px solid #9e625b;
+}
+.cell-7{
+  background-color: #933d41;
+  border: 5px solid #9e625b;
+}
+.cell-8{
+  background-color: #915f6d;
+  border: 5px solid #9e625b;
+}
+.cell-9{
+  background-color: #a95c68;
+  border: 5px solid #9e625b;
+}
+.portfolio-section{
+  background-color:pink;
 }

@@ -1,8 +1,7 @@
-html{
+body{
   background-image: url("https://i.imgur.com/crQ7R1w.jpg");
   margin: 0px;
   padding: 3px;
-  border: 25px dotted lightcoral;
 }
 .background{
   background-color:pink ;
@@ -21,6 +20,7 @@ nav{
   justify-content:flex-end;
   padding: 20px;
   border-radius: 10px;
+  text-decoration: violet;
   background-image: linear-gradient(rgb(226, 163, 120), rgb(219, 126, 140), pink);
 }
 .container {
@@ -53,17 +53,18 @@ p{
 }
 ul{
   font-size: x-large;
-  color: saddlebrown;
-}
-li{
-  color: saddlebrown;
+  color:#80316c
 }
 h4{
     text-align: center;
-  }
-a{
+}
+a:any-link{
   color: saddlebrown;
-  }
+}
+a:hover {
+  background-color: rgb(145, 94, 179);
+  text-decoration: none;
+}
 img{
   height: 300px;
   top: 60%;
@@ -76,40 +77,40 @@ img{
 }
 .cell-1{
   background-color: rgb(230, 139, 103);
-  border: 5px solid #9e625b;
+  border: 5px dotted rgb(219, 126, 140);
 }
 .cell-2{
   background-color: #d99b82;
-  border: 5px solid #9e625b;
+  border: 5px dotted rgb(219, 126, 140);
   text-align:center;
 }
   .cell-3{
   background-color: #e5ccc9;
-  border: 5px solid #9e625b;
+  border: 5px dotted rgb(219, 126, 140);
 }
 .cell-4{
   background-color: #c08081;
-  border: 5px solid #9e625b;
+  border: 5px dotted rgb(219, 126, 140);
 }
 .cell-5{
   background-color: #b57281;
-  border: 5px solid #9e625b;
+  border: 5px dotted rgb(219, 126, 140);
 }
 .cell-6{
   background-color: #ab4e52;
-  border: 5px solid #9e625b;
+  border: 5px dotted rgb(219, 126, 140);
 }
 .cell-7{
   background-color: #933d41;
-  border: 5px solid #9e625b;
+  border: 5px dotted rgb(219, 126, 140);
 }
 .cell-8{
   background-color: #915f6d;
-  border: 5px solid #9e625b;
+  border: 5px dotted rgb(219, 126, 140);
 }
 .cell-9{
   background-color: #a95c68;
-  border: 5px solid #9e625b;
+  border: 5px dotted rgb(219, 126, 140);
 }
 .portfolio-section{
   background-color:pink;

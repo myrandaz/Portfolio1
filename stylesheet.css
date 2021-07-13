@@ -84,35 +84,35 @@ img{
   border: 5px dotted rgb(219, 126, 140);
   text-align:center;
 }
-  .cell-3{
-  background-color: #e5ccc9;
-  border: 5px dotted rgb(219, 126, 140);
-}
 .cell-4{
   background-color: #c08081;
   border: 5px dotted rgb(219, 126, 140);
+  text-align:center;
+  font-size:xx-large;
+  color:#db8d8d;
 }
 .cell-5{
   background-color: #b57281;
   border: 5px dotted rgb(219, 126, 140);
   text-align:center;
-}
-.cell-6{
-  background-color: #ab4e52;
-  border: 5px dotted rgb(219, 126, 140);
+order: 5px dotted rgb(219, 126, 140);
 }
 .cell-7{
   background-color: #933d41;
   border: 5px dotted rgb(219, 126, 140);
+  text-align:center;
+  font-size:xx-large;
+  color:#db8d8d;
 }
 .cell-8{
   background-color: #915f6d;
   border: 5px dotted rgb(219, 126, 140);
+  text-align:center;
+  font-size:xx-large;
+  color:#db8d8d;
+
 }
-.cell-9{
-  background-color: #a95c68;
-  border: 5px dotted rgb(219, 126, 140);
-}
+
 .portfolio-section{
   background-color:pink;
 }

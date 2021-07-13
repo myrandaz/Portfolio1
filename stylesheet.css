@@ -95,6 +95,7 @@ img{
 .cell-5{
   background-color: #b57281;
   border: 5px dotted rgb(219, 126, 140);
+  text-align:center;
 }
 .cell-6{
   background-color: #ab4e52;

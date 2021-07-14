@@ -1,44 +1,45 @@
 body{
-  background-image: url("https://i.imgur.com/crQ7R1w.jpg");
+  background-image: url("https://i.imgur.com/UAThK3d.jpg");
   margin: 0px;
+  background-size:300px;
   padding: 3px;
+}
+html{
+  scroll-behavior:initial;
 }
 .background{
   background-color:pink ;
 }
 .home-page {
     text-align: center;
-    background-color: pink;
-    color: rgb(61, 12, 110);
+    background-image: linear-gradient(rgb(226, 163, 120), rgb(219, 126, 140), pink);
+    color: rgb(138, 63, 131);
 }
 .header-words{
   margin:20px;
   color:rgb(124, 6, 6);
-}
-nav{
-  display:flex;
-  justify-content:flex-end;
-  padding: 20px;
-  border-radius: 10px;
-  text-decoration: violet;
-  background-image: linear-gradient(rgb(226, 163, 120), rgb(219, 126, 140), pink);
 }
 .container {
     width: 700px;
     background-image: linear-gradient(315deg, pink , coral ,pink);
 }
 .container-two {
-  height: 90vh;
   margin: 20px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: fit-content(300px) fit-content(300px) 1fr;
+  box-sizing: border-box;
+  height: 100px;
+  width: 100px;
+  background-color: #915f6d;
+  padding: 10px;
+  
 }
 p{
   background-color: rgb(180, 38, 61);
   text-align: center;
   color: #e2989c;
   font-size: xxx-large;
+  font-family:'Varela Round', sans-serif;
 }
 .cell {
   font-size: large;
@@ -50,6 +51,7 @@ p{
     padding: 30px;
     background-image: linear-gradient(315deg, #db8d8d ,pink );
     background-size: 100% ;
+    font-family:'Varela Round', sans-serif;
 }
 ul{
   font-size: x-large;
@@ -59,7 +61,7 @@ h4{
     text-align: center;
 }
 a:any-link{
-  color: saddlebrown;
+  color: rgb(56, 16, 49);
 }
 a:hover {
   background-color: rgb(145, 94, 179);
@@ -78,41 +80,56 @@ img{
 .cell-1{
   background-color: rgb(230, 139, 103);
   border: 5px dotted rgb(219, 126, 140);
+  color:#a52b2b;
+  text-align:center;
+  font-size: xx-large;
+  font-family:'Varela Round', sans-serif;
 }
 .cell-2{
   background-color: #d99b82;
   border: 5px dotted rgb(219, 126, 140);
   text-align:center;
+  font-family:'Varela Round', sans-serif;
 }
-.cell-4{
+.cell-3{
   background-color: #c08081;
   border: 5px dotted rgb(219, 126, 140);
   text-align:center;
   font-size:xx-large;
-  color:#db8d8d;
+  color:#a52b2b;
+  font-family:'Varela Round', sans-serif;
 }
-.cell-5{
+.cell-4{
   background-color: #b57281;
   border: 5px dotted rgb(219, 126, 140);
   text-align:center;
-order: 5px dotted rgb(219, 126, 140);
+  border: 5px dotted rgb(219, 126, 140);
+  font-family:'Varela Round', sans-serif;
 }
-.cell-7{
+.cell-5{
   background-color: #933d41;
   border: 5px dotted rgb(219, 126, 140);
   text-align:center;
   font-size:xx-large;
+  font-family:'Varela Round', sans-serif;
   color:#db8d8d;
 }
-.cell-8{
+.cell-6{
   background-color: #915f6d;
   border: 5px dotted rgb(219, 126, 140);
   text-align:center;
   font-size:xx-large;
   color:#db8d8d;
-
+  font-family:'Varela Round', sans-serif;
 }
 
 .portfolio-section{
   background-color:pink;
+}
+.contact{
+  font-size:xx-large;
+  border: 5px white;
+  text-align: center;
+  font-family: sans-serif;
+  color:#a52b2b;
 }

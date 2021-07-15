@@ -59,6 +59,7 @@ ul{
 }
 h4{
     text-align: center;
+    text-shadow: 1px 1px 2px rgb(201, 43, 96), 0 0 25px rgb(199, 134, 229), 0 0 5px rgb(255, 255, 255);
 }
 a:any-link{
   color: rgb(56, 16, 49);

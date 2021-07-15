@@ -90,6 +90,8 @@ img{
   border: 5px dotted rgb(219, 126, 140);
   text-align:center;
   font-family:'Varela Round', sans-serif;
+  display:flex;
+  justify-content: space-around;
 }
 .cell-3{
   background-color: #c08081;
@@ -105,6 +107,8 @@ img{
   text-align:center;
   border: 5px dotted rgb(219, 126, 140);
   font-family:'Varela Round', sans-serif;
+  display:flex;
+  justify-content: space-around;
 }
 .cell-5{
   background-color: #933d41;
